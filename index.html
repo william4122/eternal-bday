@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Birthday Card</title>
+</head>
+<body>
+
+  <div id="main-container">
+    <!-- Waffle Menu Icon -->
+    <div id="waffle-menu" onclick="toggleNav()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="content-container">
+      <!-- Scrollable Box -->
+      <div id="scrollable-box">
+        <!-- Sub Boxes with Pictures -->
+        <div class="sub-box" onclick="openFullScreen('image1.jpg', 'Caption 1')">
+          <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="sub-box" onclick="openFullScreen('image2.jpg', 'Caption 2')">
+          <img src="image2.jpg" alt="Image 2">
+        </div>
+        <!-- Add more sub-boxes as needed -->
+
+        <!-- Fullscreen Modal -->
+        <div id="fullscreen-modal">
+          <span class="close" onclick="closeFullScreen()">&times;</span>
+          <img id="fullscreen-image" src="" alt="Fullscreen Image">
+          <div id="caption"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Side Navigation Bar -->
+  <div id="side-nav">
+    <a href="#" onclick="openYear(2022)">2022</a>
+    <!-- Add more links for other years as needed -->
+  </div>
+
+  <!-- Passphrase Prompt -->
+  <div id="passphrase-modal">
+    <div id="passphrase-content">
+      <label for="passphrase">Enter Passphrase:</label>
+      <input type="password" id="passphrase" required>
+      <button onclick="checkPassphrase()">Submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

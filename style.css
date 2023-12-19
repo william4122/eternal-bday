@@ -23,8 +23,8 @@ body {
 }
 
 .sub-box img {
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
   object-fit: cover; /* Ensure the entire image is covered */
 }
 

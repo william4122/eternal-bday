@@ -26,6 +26,7 @@ function openFullScreen(imageSrc, caption) {
 // Close Fullscreen Modal
 function closeFullScreen(event) {
   const modal = document.getElementById('fullscreen-modal');
+  modal.style.display = 'none';
 }
 
 // Open Birthday Year

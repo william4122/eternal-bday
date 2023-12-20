@@ -3,7 +3,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Toggle Side Navigation Bar
   function toggleNav() {
-    // Your toggleNav function code
+// Toggle Side Navigation Bar
+function toggleNav() {
+  const sideNav = document.getElementById('side-nav');
+  if (sideNav.style.left === '0px') {
+    sideNav.style.left = '-200px';
+  } else {
+    sideNav.style.left = '0px';
   }
 
   // Open Fullscreen Modal

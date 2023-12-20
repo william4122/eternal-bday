@@ -24,9 +24,12 @@ function openFullScreen(imageSrc, caption) {
 }
 
 // Close Fullscreen Modal
-function closeFullScreen() {
+function closeFullScreen(event) {
   const modal = document.getElementById('fullscreen-modal');
-  modal.style.display = 'none';
+  // Check if the click occurred outside the image
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
 }
 
 // Open Birthday Year

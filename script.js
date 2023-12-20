@@ -13,17 +13,26 @@ function openFullScreen(imageSrc, caption) {
   const modal = document.getElementById('fullscreen-modal');
   const image = document.getElementById('fullscreen-image');
   const captionElement = document.getElementById('caption');
+  const modalOverlay = document.getElementById('fullscreen-modal-overlay'); // Add this line
 
   image.src = imageSrc;
   captionElement.innerHTML = caption;
   modal.style.display = 'block';
+
+  // Close modal when overlay (dark background) is clicked
+  modalOverlay.addEventListener('click', closeFullScreen);
 }
 
 // Close Fullscreen Modal
 function closeFullScreen() {
   const modal = document.getElementById('fullscreen-modal');
+  const modalOverlay = document.getElementById('fullscreen-modal-overlay'); // Add this line
   modal.style.display = 'none';
+
+  // Remove the event listener to prevent multiple bindings
+  modalOverlay.removeEventListener('click', closeFullScreen);
 }
+
 
 // Open Birthday Year
 function openYear(year) {

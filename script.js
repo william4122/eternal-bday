@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const modalOverlay = document.getElementById('fullscreen-modal-overlay');
+
   // Toggle Side Navigation Bar
   function toggleNav() {
     // Your toggleNav function code
@@ -14,9 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     captionElement.innerHTML = caption;
     modal.style.display = 'block';
   }
-  // Close modal when overlay (dark background) is clicked
-  modalOverlay.addEventListener('click', closeFullScreen);
-}
+
   // Close Fullscreen Modal
   function closeFullScreen() {
     const modal = document.getElementById('fullscreen-modal');
@@ -29,3 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // For now, we'll just alert the selected year
     alert(`Opening birthday cards for ${year}`);
   }
+
+  // Close modal when overlay (dark background) is clicked
+  modalOverlay.addEventListener('click', closeFullScreen);
+});
+

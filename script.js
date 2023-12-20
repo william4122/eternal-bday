@@ -3,13 +3,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Toggle Side Navigation Bar
   function toggleNav() {
-// Toggle Side Navigation Bar
-function toggleNav() {
-  const sideNav = document.getElementById('side-nav');
-  if (sideNav.style.left === '0px') {
-    sideNav.style.left = '-200px';
-  } else {
-    sideNav.style.left = '0px';
+    const sideNav = document.getElementById('side-nav');
+    if (sideNav.style.left === '0px') {
+      sideNav.style.left = '-200px';
+    } else {
+      sideNav.style.left = '0px';
+    }
   }
 
   // Open Fullscreen Modal
@@ -39,4 +38,3 @@ function toggleNav() {
   // Close modal when overlay (dark background) is clicked
   modalOverlay.addEventListener('click', closeFullScreen);
 });
-

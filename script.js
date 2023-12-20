@@ -19,15 +19,16 @@ function openFullScreen(imageSrc, caption) {
   captionElement.innerHTML = caption;
   modal.style.display = 'block';
 
-  // Close modal when overlay (dark background) is clicked
-  modalOverlay.addEventListener('click', closeFullScreen);
-}
-
 // Close Fullscreen Modal
 function closeFullScreen() {
   const modal = document.getElementById('fullscreen-modal');
   modal.style.display = 'none';
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  const modalOverlay = document.getElementById('fullscreen-modal-overlay');
+  modalOverlay.addEventListener('click', closeFullScreen);
+});
 
 // Open Birthday Year
 function openYear(year) {

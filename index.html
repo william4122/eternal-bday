@@ -33,13 +33,6 @@
         <!-- Add more sub-boxes as needed -->
 
         <!-- Repeat the sub-box divs for the remaining images -->
-
-        <!-- Fullscreen Modal -->
-        <div id="fullscreen-modal">
-          <span class="close" onclick="closeFullScreen()">&times;</span>
-          <img id="fullscreen-image" src="" alt="Fullscreen Image">
-          <div id="caption"></div>
-        </div>
       </div>
     </div>
   </div>
@@ -50,17 +43,15 @@
     <!-- Add more links for other years as needed -->
   </div>
 
-<!-- Passphrase Prompt -->
-<div id="passphrase-modal">
-  <div id="passphrase-content">
-    <form id="passphrase-form">
-      <label for="passphrase">Enter Passphrase:</label>
-      <input type="password" id="passphrase" required>
-      <button type="button" onclick="checkPassphrase()">Submit</button>
-    </form>
-  </div>
+
+<!-- Fullscreen Modal -->
+<div id="fullscreen-modal">
+  <span class="close" onclick="closeFullScreen()">&times;</span>
+  <img id="fullscreen-image" src="" alt="Fullscreen Image">
+  <div id="caption"></div>
+  <div id="fullscreen-modal-overlay"></div> <!-- Add this line -->
 </div>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

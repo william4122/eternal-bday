@@ -35,8 +35,29 @@ function openYear(year) {
   // For now, we'll just alert the selected year
   alert(`Opening birthday cards for ${year}`);
 }
-
-// Display Passphrase Modal on page load
 document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('passphrase-modal').style.display = 'flex';
+  const scrollableBox = document.getElementById('scrollable-box');
+
+  // Sample data for images and captions
+  const imageData = [
+    { src: 'images/Image1.jpg', caption: 'Chris happy birthday! I got you a present!' },
+    { src: 'images/Image2.jpg', caption: 'La rata watching 2' },
+    { src: 'images/Image3.jpg', caption: 'NYC pt 3' },
+    // Add more objects for additional images
+  ];
+
+  // Dynamically create sub-boxes
+  imageData.forEach((data, index) => {
+    const subBox = document.createElement('div');
+    subBox.classList.add('sub-box');
+    subBox.onclick = () => openFullScreen(data.src, data.caption);
+
+    const img = document.createElement('img');
+    img.src = data.src;
+    img.alt = `Image ${index + 1}`;
+
+    subBox.appendChild(img);
+    scrollableBox.appendChild(subBox);
+  });
 });
+

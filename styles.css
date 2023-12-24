@@ -142,6 +142,7 @@ justify-content: center;
   margin: 10px;
 }
 
+/* Side Navigation Bar */
 #side-nav {
   height: 100%;
   width: 200px;
@@ -149,7 +150,7 @@ justify-content: center;
   z-index: 1;
   top: 0;
   left: -200px;
-  background-color: #111;
+  background-color: pink; /* Change the background color to pink */
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -162,17 +163,20 @@ justify-content: center;
   color: #818181;
   display: block;
   transition: 0.3s;
+  color: white; /* Change the text color to white */
 }
 
 #side-nav a:hover {
   color: #f1f1f1;
 }
 
+/* Waffle Menu Icon */
 #waffle-menu {
   cursor: pointer;
   padding: 20px;
   position: fixed;
   z-index: 1;
+  color: pink; /* Change the color to pink */
 }
 
 .bar {
@@ -181,4 +185,25 @@ justify-content: center;
   background-color: #333;
   margin: 6px 0;
   transition: 0.4s;
+}
+/* Add glitter effect to the sidebar */
+#side-nav::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  animation: glitter 1.5s infinite linear;
+}
+
+@keyframes glitter {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

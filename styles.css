@@ -138,9 +138,12 @@ justify-content: center;
 }
 
 #caption {
-  color: #fff;
+  color: pink; /* Change color to pink */
   margin: 10px;
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
 }
+
 /* Style the close button */
 #fullscreen-modal .close {
   position: absolute;
@@ -151,6 +154,9 @@ justify-content: center;
   color: #fff; /* White text */
   padding: 5px 10px;
   border-radius: 5px;
+}
+#fullscreen-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the last value for transparency */
 }
 /* Side Navigation Bar */
 #side-nav {

@@ -15,31 +15,31 @@
       <div class="bar"></div>
       <div class="bar"></div>
     </div>
-<br>
-<br>
-<br>
-<br>
-<!-- Main Content Area -->
-<div id="content-container">
-  <!-- Scrollable Box -->
-  <div id="scrollable-box"></div> <!-- This div will be populated dynamically -->
-</div>
-  
-<!-- Side Navigation Bar -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Main Content Area -->
+    <div id="content-container">
+      <!-- Scrollable Box -->
+      <div id="scrollable-box"></div> <!-- This div will be populated dynamically -->
+    </div>
+  </div>
+
+  <!-- Side Navigation Bar -->
   <div id="side-nav">
     <a href="#" onclick="openYear(2023)">2023</a>
     <!-- Add more links for other years as needed -->
   </div>
 
+  <!-- Fullscreen Modal -->
+  <div id="fullscreen-modal">
+    <span class="close" onclick="closeFullScreen()">&times;</span>
+    <img id="fullscreen-image" src="" alt="Fullscreen Image">
+    <div id="caption"></div>
+    <div id="fullscreen-modal-overlay"></div> <!-- Add this line -->
+  </div>
 
-<!-- Fullscreen Modal -->
-<div id="fullscreen-modal">
-  <span class="close" onclick="closeFullScreen()">&times;</span>
-  <img id="fullscreen-image" src="" alt="Fullscreen Image">
-  <div id="caption"></div>
-  <div id="fullscreen-modal-overlay"></div> <!-- Add this line -->
-</div>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

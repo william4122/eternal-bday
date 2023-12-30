@@ -197,7 +197,7 @@ button:hover {
   padding: 20px;
   position: fixed;
   z-index: 1;
-  color: pink; /* Change the color to pink */
+  background-color: #ffa07a; /* Example background color (peach) 
 }
 
 .bar {

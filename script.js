@@ -59,7 +59,6 @@ const imageData = [
   { src: 'images/Image6.jpg', caption: 'Chris, I got you a present #Friendsgiving2023' },
   { src: 'images/Image7.jpg', caption: 'Elier took my Hat and she a baddie with her baddie friends' },
   { src: 'images/Image8.jpg', caption: 'Happy Birthday from NYC' },
-  { src: 'images/Image9.jpg', caption: 'caption' },
   { src: 'images/Image10.jpg', caption: 'Summit Stunning' },
   { src: 'images/Image12.jpg', caption: 'Bender doubles with Chris <3' },
   { src: 'images/Image13.jpg', caption: 'OG Badies, #missingAlly&Willy' },

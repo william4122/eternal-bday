@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const scrollableBox = document.getElementById('scrollable-box');
 
 const imageData = [
-  { src: 'images/Image.jpg', caption: 'Day1 since Day1 -Willy' },
-  { src: 'images/Image1.jpg', caption: 'Nelly happy birthday! I got you a present!' },
+  { src: 'images/Image.jpg', caption: 'Day1 since Day1 -Willy'},
+  { src: 'images/Image1.jpg', caption: 'Nelly happy birthday! I got you a present!'},
   { src: 'images/Image2.jpg', caption: 'A peaceful boat day in DR -Willy' },
   { src: 'images/Image3.jpg', caption: 'OGs' },
   { src: 'images/Image4.jpg', caption: 'Grenade WHISTLE!' },

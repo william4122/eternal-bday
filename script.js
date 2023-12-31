@@ -80,7 +80,12 @@ const imageData = [
   { src: 'images/Image29.jpg', caption: 'Las ninas -sent by angie caption by meh' },
   { src: 'images/Image30.jpg', caption: 'Ashley! So grateful to have gotten close to you, your vibe is unmatched. Cheers to life, to the start of anew age book and kill it like the queen you are. With much love <3 -Dasmi' },
   { src: 'images/Image31.jpg', caption: 'Im thankful to have you as family. Youve always understood me and made me feel loved. Wishing you another amazing year full of love happiness and reward!' },
-  { src: 'images/Image32.jpg', caption: 'Before & this one sent by Gabriel' }
+  { src: 'images/Image32.jpg', caption: 'Before & this one sent by Gabriel' },
+  { src: 'images/Image33.jpg', caption: 'Happy birthday to our bestie for the restie <3 I love having someone like you in my life. To many more years of bdays and friendships. Love you!! -Lyann' },
+  { src: 'images/Image34.jpg', caption: 'Leave me the fuck alone!' },
+  { src: 'images/Image35.jpg', caption: 'White party :p' },
+  { src: 'images/Image36.jpg', caption: 'Oooo yall baddd on a boat' },
+  { src: 'images/Image37.jpg', caption: 'NOLA with Aldo & Nelly <3' }
   // Add more objects for additional images
 ];
 imageData.forEach((data, index) => {

@@ -152,8 +152,8 @@ button:hover {
 /* Style the close button */
 #fullscreen-modal .close {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 50px;
+  right: 50px;
   cursor: pointer;
   background-color: #ff69b4; /* Pink color, you can change it */
   color: #fff; /* White text */

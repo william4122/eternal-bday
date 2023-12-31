@@ -72,6 +72,13 @@ const imageData = [
   { src: 'images/Image21.jpg', caption: 'Marialena sent us home that day smh' },
   { src: 'images/Image22.jpg', caption: 'Happy Birthday! -Aldo' },
   { src: 'images/Image23.jpg', caption: 'Every night is a girls night #itonlytakes3 -Sam' }
+  { src: 'images/Image24.jpg', caption: 'Bunch of cowgirl bishes' },
+  { src: 'images/Image25.jpg', caption: 'Again' },
+  { src: 'images/Image26.jpg', caption: 'Im baddd' },
+  { src: 'images/Image27.jpg', caption: 'When Earls was good!' },
+  { src: 'images/Image28.jpg', caption: 'Happy Birthday, Cheef Queen, Te quiero! -Angie' },
+  { src: 'images/Image29.jpg', caption: 'Las ninas -sent by angie caption by meh' }
+  { src: 'images/Image30.jpg', caption: 'Ashley! So grateful to have gotten close to you, your vibe is unmatched. Cheers to life, to the start of anew age book and kill it like the queen you are. With much love <3 -Dasmi' }
   // Add more objects for additional images
 ];
 

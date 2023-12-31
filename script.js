@@ -77,7 +77,7 @@ const imageData = [
   { src: 'images/Image26.jpg', caption: 'Im baddd' },
   { src: 'images/Image27.jpg', caption: 'When Earls was good!' },
   { src: 'images/Image28.jpg', caption: 'Happy Birthday, Cheef Queen, Te quiero! -Angie' },
-  { src: 'images/Image29.jpg', caption: 'Las ninas -sent by angie caption by meh' }
+  { src: 'images/Image29.jpg', caption: 'Las ninas -sent by angie caption by meh' },
   { src: 'images/Image30.jpg', caption: 'Ashley! So grateful to have gotten close to you, your vibe is unmatched. Cheers to life, to the start of anew age book and kill it like the queen you are. With much love <3 -Dasmi' }
   // Add more objects for additional images
 ];

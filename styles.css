@@ -145,8 +145,7 @@ button:hover {
 #caption {
   color: pink; /* Change color to pink */
   margin: 10px;
-  font-size: 24px;
-  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
 }
 
 /* Style the close button */

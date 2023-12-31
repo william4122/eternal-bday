@@ -26,10 +26,6 @@ body::before {
   z-index: -1;
 }
 
-/* Headings in script font */
-h1, h2, h3 {
-  font-family: 'cursive', sans-serif;
-}
 
 /* Pink buttons with hover effect */
 button {

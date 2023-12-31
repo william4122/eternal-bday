@@ -205,7 +205,7 @@ button:hover {
   padding: 20px;
   position: fixed;
   z-index: 1;
-  background-color: #ffa07a; /* Example background color (peach) 
+  background-image: images/peach.png
 }
 
 .bar {

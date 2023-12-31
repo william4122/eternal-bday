@@ -107,7 +107,7 @@ button:hover {
 /* Scrollable box styles */
 #scrollable-box {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
   grid-gap: 20px; /* Adjust the gap between grid items */
   justify-content: center;
   align-items: center;
